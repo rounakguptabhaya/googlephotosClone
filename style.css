@@ -1,0 +1,114 @@
+.container{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 5px;
+    grid-auto-rows: minmax(70px,auto);
+    grid-auto-columns: minmax(50px,auto);
+    column-gap: 5px;
+}
+
+#top-pane{
+    /* background-color: aquamarine; */
+    width:auto;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.search-bar{
+    width: 40%;
+    position: absolute;
+    margin: 5px 7% 10px 10%;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    background-color: #f1f3f4;
+    border-radius: 10px;
+}
+
+.upload{
+    position: absolute;
+    font-size: 15px;
+    right: 7%;
+    text-decoration: none;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    color: #5f6368;
+    padding-top: 10px;
+    /* margin: 10px 0px 10px 60%; */
+}
+
+.upload-logo{
+    padding: 0 7px 0 7px;
+}
+
+.user-logo{
+    position: absolute;
+    padding-top: 4px;
+    right: 3%;
+    color: #5f6368;
+}
+
+/* #right-pane{
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end: 8;    
+} */
+
+left-pane-hr{
+    width: 90%;
+    
+}
+
+
+.google{
+    margin: 10px 
+}
+
+span{
+    position: absolute;
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #5f6368;
+}
+#middle-pane{
+    /* background-color: red; */
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 10;    
+}
+
+#left-pane{
+    /* background-color: blueviolet; */
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+
+#left-pane a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 0 10px 10px;
+    color: #5f6368;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#left-pane p{
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-pane-icons{
+    padding-right: 20px;
+}
+
+#left-pane a:hover{
+    background-color: #2962ff48;
+    color: #2962ff;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: 0.2s;
+}
+
